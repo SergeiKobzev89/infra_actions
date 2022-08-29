@@ -60,3 +60,4 @@ jobs:
             sudo docker pull kobzev5612/gates:v1.00
             sudo docker stop $(sudo docker ps -a -q)
             sudo docker run --rm -d -p 5000:5000 kobzev5612/gates:v1.00
+            
